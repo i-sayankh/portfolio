@@ -166,7 +166,7 @@ export const experiences = [
 export const education = [
     {
         id: 0,
-        img: "https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc",
+        img: "https://vit.ac.in/SGGES-21/assets/vit%20logo.png",
         school: "Vellore Institute of Technology, Vellore",
         date: "September 2021 - August 2023",
         grade: "8.43 CGPA",
@@ -175,7 +175,7 @@ export const education = [
     },
     {
         id: 1,
-        img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfgs5SlYNSOK8xqgBvwUgL0ptrleBCIL0RdBSUAaZuA&s",
         school: "Kazi Nazrul Unversity, Asansol",
         date: "July 2017 - October 2020",
         grade: "9.17 CGPA",
