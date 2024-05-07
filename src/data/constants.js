@@ -209,7 +209,7 @@ export const projects = [
         tags: [".NET, ASP.NET Core", "ASP.NET Roles", "ASP.NET Identity", "API", "E-Commerce"],
         category: "web app",
         github: "https://github.com/i-sayankh/BulkyBook",
-        webapp: "",
+        webapp: null
     },
     {
         id: 2,
@@ -222,7 +222,7 @@ export const projects = [
         tags: ["ASP.NET Core", "ASP.NET Identity", "Entity Framework Core", "C#", "SQL Server"],
         category: "API",
         github: "https://github.com/i-sayankh/BookingResort_API",
-        webapp: "",
+        webapp: null,
     },
     {
         id: 3,
@@ -235,7 +235,7 @@ export const projects = [
         tags: [".NET", "ASP.NET Core", "ASP.NET Identity", "CRUD Operations", "API Development"],
         category: "API",
         github: "https://github.com/i-sayankh/INDWalks",
-        webapp: "",
+        webapp: null,
     },
     {
         id: 4,
@@ -260,7 +260,7 @@ export const projects = [
         tags: ["Python", "tkinter", "cryptography", "Password Manager", "GUI application"],
         category: "GUI app",
         github: "https://github.com/i-sayankh/PasswordManager",
-        webapp: "",
+        webapp: null,
     },
 ];
 
