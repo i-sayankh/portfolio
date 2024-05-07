@@ -81,6 +81,10 @@ export const skills = [
                 image:
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
             },
+            {
+                name: "ASP.NET",
+                image: "https://seeklogo.com/images/1/net-logo-681E247422-seeklogo.com.png"
+            }
         ],
     },
     {
@@ -89,7 +93,7 @@ export const skills = [
             {
                 name: "Git",
                 image:
-                    "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+                    "https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png",
             },
             {
                 name: "GitHub",
@@ -109,12 +113,16 @@ export const skills = [
             {
                 name: "Postman",
                 image:
-                    "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+                    "https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png",
             },
             {
                 name: "Figma",
                 image:
-                    "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+                    "https://seeklogo.com/images/F/figma-logo-E4E21D3AEA-seeklogo.com.png",
+            },
+            {
+                name: "Microsoft SQL Server",
+                image: "https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png"
             },
         ],
     },
