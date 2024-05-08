@@ -5,7 +5,7 @@ import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
 
-const Projects = ({openModal,setOpenModal}) => {
+export const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects">
@@ -53,6 +53,4 @@ const Projects = ({openModal,setOpenModal}) => {
       </Wrapper>
     </Container>
   )
-}
-
-export default Projects
+};

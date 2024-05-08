@@ -50,9 +50,7 @@ const Date = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
-`
-
-
+`;
 
 const Desc = styled.div`
     font-size: 16px;
@@ -182,7 +180,7 @@ const Button = styled.a`
 `;
 
 
-const index = ({ openModal, setOpenModal }) => {
+export const ProjectDetails = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
@@ -234,6 +232,4 @@ const index = ({ openModal, setOpenModal }) => {
 
         </Modal>
     )
-}
-
-export default index
+};

@@ -220,7 +220,7 @@ export const MobileNavLogo = styled(LinkR)`
   }
 `;
 
-const NavBar = () => {
+export const NavBar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
 
@@ -288,5 +288,3 @@ const NavBar = () => {
     </Nav>
   );
 };
-
-export default NavBar;

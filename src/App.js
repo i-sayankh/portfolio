@@ -1,16 +1,17 @@
 import './App.css';
 import { useState, useEffect } from "react";
 import styled, { ThemeProvider } from 'styled-components';
-import { darkTheme } from "./utils/Themes";
-import NavBar from './components/NavBar';
+import { BrowserRouter as Router } from 'react-router-dom';
+import {Helmet} from "react-helmet";
+import { darkTheme, lightTheme } from "./utils/Themes";
+import { NavBar } from './components/NavBar';
 import { HeroSection } from './components/HeroSection';
 import { Skills } from './components/Skills';
-import Education from './components/Education';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Education } from './components/Education';
 import { Experience } from './components/Experience';
-import Projects from './components/Projects';
-import ProjectDetails from "./components/ProjectDetails";
-import Contact from "./components/Contact";
+import { Projects } from './components/Projects';
+import { ProjectDetails } from "./components/ProjectDetails";
+import { Contact } from "./components/Contact";
 import Footer from "./components/Footer";
 
 const Body = styled.div`
@@ -36,9 +37,14 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Sayan Khutia</title>
+      </Helmet>
       <Router>
         <NavBar />
         <Body>

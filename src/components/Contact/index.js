@@ -122,7 +122,7 @@ const ContactButton = styled.input`
 
 
 
-const Contact = () => {
+export const Contact = () => {
   const [open, setOpen] = useState(false);
   const [severity, setSeverity] = useState('success');
   const form = useRef();
@@ -167,6 +167,4 @@ const Contact = () => {
       </Wrapper>
     </Container>
   )
-}
-
-export default Contact;
+};
