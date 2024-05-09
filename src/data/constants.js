@@ -170,7 +170,7 @@ export const education = [
         school: "Vellore Institute of Technology, Vellore",
         date: "September 2021 - August 2023",
         grade: "8.43 CGPA",
-        desc: "I've completed my Master's degree in Computer Applications at Vellore Institute of Technology, Vellore. I have a CGPA of 8.43. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+        desc: "I completed my Master's degree in Computer Applications at Vellore Institute of Technology, Vellore, achieving a CGPA of 8.43. My coursework included in-depth study of Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and various other subjects.",
         degree: "Master of Computer Applications",
     },
     {
@@ -179,8 +179,8 @@ export const education = [
         school: "Kazi Nazrul Unversity, Asansol",
         date: "July 2017 - October 2020",
         grade: "9.17 CGPA",
-        desc: "I've completed my Bachelor's degree in Computer Applications at Kazi Nazrul Unversity, Asansol. I have a CGPA of 9.17. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-        degree: "Master of Computer Applications",
+        desc: "I earned my Bachelor's degree in Computer Applications from Kazi Nazrul University, Asansol, with a CGPA of 9.17. During my undergraduate studies, I focused on subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and others.",
+        degree: "Bachelor of Computer Applications",
     }
 ];
 
