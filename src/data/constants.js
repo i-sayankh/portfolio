@@ -187,6 +187,19 @@ export const education = [
 export const projects = [
     {
         id: 0,
+        title: "Tomato",
+        date: "May 2024",
+        description:
+            "Tomato is a Full Stack Food Delivery Web Application developed using the MERN stack (MongoDB, Express.js, React, Node.js), featuring user authentication, a dynamic menu, and cart functionality. The project includes a customer-facing frontend, an admin panel for managing orders and products, and a backend server. Key features include secure user registration and login with JWT, categorized menu items, order management, and responsive design. Technologies used include React.js, Node.js, Express.js, MongoDB, JWT for authentication, and bcrypt for password hashing.",
+        image:
+            "https://github.com/i-sayankh/food-delivery/raw/main/screenshots/homepage.png",
+        tags: ["MongoDB", "Express.js", "React", "Node.js"],
+        category: "web app",
+        github: "https://github.com/i-sayankh/food-delivery",
+        webapp: "",
+    },
+    {
+        id: 1,
         title: "DatingApp",
         date: "October 2023 - December 2023",
         description:
@@ -199,7 +212,7 @@ export const projects = [
         webapp: "",
     },
     {
-        id: 1,
+        id: 2,
         title: "BulkyBook",
         date: "January 2023 - February 2023",
         description:
@@ -212,7 +225,7 @@ export const projects = [
         webapp: null
     },
     {
-        id: 2,
+        id: 3,
         title: "BookingResort_API",
         date: "February 2023 - Mar 2023",
         description:
@@ -225,7 +238,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 3,
+        id: 4,
         title: "INDWalks",
         date: "March 2024 - April 2024",
         description:
@@ -238,7 +251,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 4,
+        id: 5,
         title: "WeatherApp",
         date: "April 2024",
         description:
@@ -251,7 +264,7 @@ export const projects = [
         webapp: "https://sayankhutia-weather-app.netlify.app/ ",
     },
     {
-        id: 5,
+        id: 6,
         title: "Password Manager",
         date: "Jun 2021",
         description:
