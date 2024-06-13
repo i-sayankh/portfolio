@@ -9,7 +9,7 @@ export const Bio = {
         "I'm a passionate Full Stack Developer with a year of professional experience. I excel in developing robust web applications and APIs, leveraging the latest technologies to deliver efficient solutions. My goal is to continue growing as a developer, tackling new challenges, and contributing to innovative projects.",
     github: "https://github.com/i-sayankh",
     resume:
-        "https://drive.google.com/file/d/16PGNXhulLfrhsZtsGT3PjCWuCgSXeOan/view?usp=sharing",
+        "https://drive.google.com/file/d/1xKxA3kyf37OqXJHWoMejv34zyCN6dld4/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sayan-khutia-2b94a6170/",
     twitter: "https://twitter.com/iamsk_3",
     insta: "https://www.instagram.com/i_sayankh",
@@ -200,6 +200,32 @@ export const projects = [
     },
     {
         id: 1,
+        title: "Cryptoplace",
+        date: "June 2024",
+        description:
+            "Cryptoplace is a responsive cryptocurrency website developed using React and the CoinGecko API, designed to provide real-time data and detailed insights into cryptocurrencies. The homepage displays the top 10 cryptocurrencies, showcasing their current price, 24-hour price change, and market capitalization. Users can search for any cryptocurrency and navigate to its detail page, which includes a LineChart generated with react-google-chart, depicting historical price data, and additional details such as rank, current price, market cap, and 24-hour high and low prices. With its intuitive interface and responsive design, Cryptoplace offers an optimal user experience across all devices and screen sizes, making it an ideal platform for tracking and analyzing cryptocurrencies.",
+        image:
+            "https://github.com/i-sayankh/cryptoplace/raw/main/screenshots/home.png",
+        tags: ["React", "Coingecko API", "react-google-charts"],
+        category: "web app",
+        github: "https://github.com/i-sayankh/cryptoplace",
+        webapp: "https://cryptoplace-sk.netlify.app/",
+    },
+    {
+        id: 2,
+        title: "Netflix Clone",
+        date: "May 2024",
+        description:
+            "Introducing my Netflix Clone web application, built with ReactJS, Firebase, and the TMDB Movie API. This dynamic platform offers secure user authentication, allowing users to create and manage accounts effortlessly. Once authenticated, users can explore a curated list of recent movies, each featuring the ability to play its official trailer with a simple click. Leveraging the TMDB Movie API ensures that the movie data is current and accurate, providing an immersive and interactive viewing experience. This project highlights my proficiency in modern web development, API integration, and authentication processes.",
+        image:
+            "https://github.com/i-sayankh/netflix-clone/raw/main/screenshots/home-page.png",
+        tags: ["React", "Firebase", "TMDB Movie API"],
+        category: "web app",
+        github: "https://github.com/i-sayankh/netflix-clone",
+        webapp: "https://netflix-clone-sk.netlify.app/",
+    },
+    {
+        id: 3,
         title: "DatingApp",
         date: "October 2023 - December 2023",
         description:
@@ -212,7 +238,7 @@ export const projects = [
         webapp: "",
     },
     {
-        id: 2,
+        id: 4,
         title: "BulkyBook",
         date: "January 2023 - February 2023",
         description:
@@ -225,7 +251,7 @@ export const projects = [
         webapp: null
     },
     {
-        id: 3,
+        id: 5,
         title: "BookingResort_API",
         date: "February 2023 - Mar 2023",
         description:
@@ -238,7 +264,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 4,
+        id: 6,
         title: "INDWalks",
         date: "March 2024 - April 2024",
         description:
@@ -251,7 +277,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 5,
+        id: 7,
         title: "WeatherApp",
         date: "April 2024",
         description:
@@ -264,7 +290,7 @@ export const projects = [
         webapp: "https://sayankhutia-weather-app.netlify.app/ ",
     },
     {
-        id: 6,
+        id: 8,
         title: "Password Manager",
         date: "Jun 2021",
         description:
