@@ -196,7 +196,7 @@ export const projects = [
         tags: ["MongoDB", "Express.js", "React", "Node.js"],
         category: "web app",
         github: "https://github.com/i-sayankh/food-delivery",
-        webapp: "",
+        webapp: "https://food-delivery-frontend-10c3.onrender.com",
     },
     {
         id: 1,
