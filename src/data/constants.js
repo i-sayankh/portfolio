@@ -187,6 +187,19 @@ export const education = [
 export const projects = [
     {
         id: 0,
+        title: "Bugbook - Social Media Web App",
+        date: "July 2024 - September 2024",
+        description:
+            "Bugbook is a dynamic full-stack social media platform built with Next.js, leveraging server-side components for optimal performance and real-time data updates. The platform provides secure user authentication through Google OAuth2 and Lucia Auth, allowing users to sign in seamlessly.Key features include infinite scrolling feeds for continuous content discovery, drag-and-drop file uploads, and real-time notifications and chat using Stream Chat, ensuring a smooth user experience. Bugbook also offers a responsive and aesthetically pleasing UI, crafted with Tailwind CSS and Shadcn UI, supporting both dark and light themes as well as mobile layouts.Prisma ORM, paired with PostgreSQL, efficiently manages database operations, while React Query ensures smooth data synchronization with optimistic updates. Deployed on Vercel, Bugbook takes advantage of advanced caching and scheduled tasks using cron jobs for enhanced performance and reliability.",
+        image:
+            "https://github.com/i-sayankh/social-media-app/blob/master/screenshots/login-page.png",
+        tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "React Query", "Tailwind CSS", "Stream Chat", "Lucia Auth", "Vercel"],
+        category: "web app",
+        github: "https://github.com/i-sayankh/social-media-app",
+        webapp: "https://social-media-app-three-indol.vercel.app/",
+    },
+    {
+        id: 1,
         title: "Tomato",
         date: "May 2024",
         description:
@@ -199,7 +212,7 @@ export const projects = [
         webapp: "https://food-delivery-frontend-10c3.onrender.com",
     },
     {
-        id: 1,
+        id: 2,
         title: "Cryptoplace",
         date: "June 2024",
         description:
@@ -212,7 +225,7 @@ export const projects = [
         webapp: "https://cryptoplace-sk.netlify.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Netflix Clone",
         date: "May 2024",
         description:
@@ -225,7 +238,7 @@ export const projects = [
         webapp: "https://netflix-clone-sk.netlify.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "DatingApp",
         date: "October 2023 - December 2023",
         description:
@@ -238,7 +251,7 @@ export const projects = [
         webapp: "",
     },
     {
-        id: 4,
+        id: 5,
         title: "BulkyBook",
         date: "January 2023 - February 2023",
         description:
@@ -251,7 +264,7 @@ export const projects = [
         webapp: null
     },
     {
-        id: 5,
+        id: 6,
         title: "BookingResort_API",
         date: "February 2023 - Mar 2023",
         description:
@@ -264,7 +277,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 6,
+        id: 7,
         title: "INDWalks",
         date: "March 2024 - April 2024",
         description:
@@ -277,7 +290,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 7,
+        id: 8,
         title: "WeatherApp",
         date: "April 2024",
         description:
@@ -290,7 +303,7 @@ export const projects = [
         webapp: "https://sayankhutia-weather-app.netlify.app/ ",
     },
     {
-        id: 8,
+        id: 9,
         title: "Password Manager",
         date: "Jun 2021",
         description:
