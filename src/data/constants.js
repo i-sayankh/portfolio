@@ -192,7 +192,7 @@ export const projects = [
         description:
             "Bugbook is a dynamic full-stack social media platform built with Next.js, leveraging server-side components for optimal performance and real-time data updates. The platform provides secure user authentication through Google OAuth2 and Lucia Auth, allowing users to sign in seamlessly.Key features include infinite scrolling feeds for continuous content discovery, drag-and-drop file uploads, and real-time notifications and chat using Stream Chat, ensuring a smooth user experience. Bugbook also offers a responsive and aesthetically pleasing UI, crafted with Tailwind CSS and Shadcn UI, supporting both dark and light themes as well as mobile layouts.Prisma ORM, paired with PostgreSQL, efficiently manages database operations, while React Query ensures smooth data synchronization with optimistic updates. Deployed on Vercel, Bugbook takes advantage of advanced caching and scheduled tasks using cron jobs for enhanced performance and reliability.",
         image:
-            "https://github.com/i-sayankh/social-media-app/blob/master/screenshots/login-page.png",
+            "https://github.com/i-sayankh/social-media-app/blob/master/screenshots/login-page.png?raw=true",
         tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "React Query", "Tailwind CSS", "Stream Chat", "Lucia Auth", "Vercel"],
         category: "web app",
         github: "https://github.com/i-sayankh/social-media-app",
