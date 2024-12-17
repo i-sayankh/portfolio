@@ -213,6 +213,19 @@ export const projects = [
     },
     {
         id: 2,
+        title: "RealEstate Hub",
+        date: "December 2024",
+        description:
+            "RealEstate Hub is a modern Single Page Application developed using React and Vite, featuring comprehensive property listings, interactive project showcases, client testimonials, and a contact section. The application provides a seamless user experience with smooth animations, responsive design, and intuitive navigation. Key features include dynamic project galleries, animated transitions, toast notifications for user interactions, and a clean, professional interface for real estate presentations.",
+        image:
+            "https://github.com/i-sayankh/food-delivery/raw/main/screenshots/homepage.png",
+        tags: ["React", "Vite", "Framer Motion", "React Toastify"],
+        category: "web app",
+        github: "https://github.com/i-sayankh/real-estate",
+        webapp: "https://real-estate-cyan-iota.vercel.app/",
+    },
+    {
+        id: 3,
         title: "Cryptoplace",
         date: "June 2024",
         description:
@@ -225,7 +238,7 @@ export const projects = [
         webapp: "https://cryptoplace-sk.netlify.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Netflix Clone",
         date: "May 2024",
         description:
@@ -235,10 +248,10 @@ export const projects = [
         tags: ["React", "Firebase", "TMDB Movie API"],
         category: "web app",
         github: "https://github.com/i-sayankh/netflix-clone",
-        webapp: "https://netflix-clone-sk.netlify.app/",
+        webapp: "https://stunning-hummingbird-96e925.netlify.app/",
     },
     {
-        id: 4,
+        id: 5,
         title: "DatingApp",
         date: "October 2023 - December 2023",
         description:
@@ -251,7 +264,7 @@ export const projects = [
         webapp: "",
     },
     {
-        id: 5,
+        id: 6,
         title: "BulkyBook",
         date: "January 2023 - February 2023",
         description:
@@ -264,7 +277,7 @@ export const projects = [
         webapp: null
     },
     {
-        id: 6,
+        id: 7,
         title: "BookingResort_API",
         date: "February 2023 - Mar 2023",
         description:
@@ -277,7 +290,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 7,
+        id: 8,
         title: "INDWalks",
         date: "March 2024 - April 2024",
         description:
@@ -290,7 +303,7 @@ export const projects = [
         webapp: null,
     },
     {
-        id: 8,
+        id: 9,
         title: "WeatherApp",
         date: "April 2024",
         description:
@@ -303,7 +316,7 @@ export const projects = [
         webapp: "https://sayankhutia-weather-app.netlify.app/ ",
     },
     {
-        id: 9,
+        id: 10,
         title: "Password Manager",
         date: "Jun 2021",
         description:
