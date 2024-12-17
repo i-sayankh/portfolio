@@ -218,7 +218,7 @@ export const projects = [
         description:
             "RealEstate Hub is a modern Single Page Application developed using React and Vite, featuring comprehensive property listings, interactive project showcases, client testimonials, and a contact section. The application provides a seamless user experience with smooth animations, responsive design, and intuitive navigation. Key features include dynamic project galleries, animated transitions, toast notifications for user interactions, and a clean, professional interface for real estate presentations.",
         image:
-            "https://github.com/i-sayankh/food-delivery/raw/main/screenshots/homepage.png",
+            "https://github.com/i-sayankh/real-estate/raw/main/screenshots/home-screenshot.png",
         tags: ["React", "Vite", "Framer Motion", "React Toastify"],
         category: "web app",
         github: "https://github.com/i-sayankh/real-estate",
