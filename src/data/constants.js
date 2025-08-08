@@ -131,6 +131,20 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
+        img: "https://codingsphere.co/_next/static/media/logo.e2ac2d7f.svg",
+        role: "Software Development Engineer",
+        company: "Coding Sphere",
+        date: "January 2025 - Present",
+        desc: "Developing scalable, high-performance applications using modern web technologies like Next.js, FastAPI, and Playwright. Responsible for building robust front-end and back-end solutions, optimizing system performance, and ensuring seamless and intuitive user experiences across platforms.",
+        skills: [
+            "NextJS",
+            "Type Script",
+            "Tailwind CSS",
+            "FastAPI",
+        ],
+    },
+    {
+        id: 1,
         img: "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/m6itvuapjqogmqtiq4bh",
         role: "Technical Trainee",
         company: "Gemini Solutions Pvt Ltd",
@@ -144,23 +158,6 @@ export const experiences = [
             "JavaScript",
         ],
     },
-    {
-        id: 1,
-        img: "https://pbs.twimg.com/profile_images/1236582598681300992/_mEnBd4q_400x400.jpg",
-        role: "Front End Developer",
-        company: "Indian Human Rights Organization",
-        date: "May 2022 - August 2022",
-        desc: "Led the design and development of customized, client-specific web pages with React for intuitive user experiences; executed complex functionalities such as secure payment processing and user management, and efficiently managed databases on AWS for optimal performance and scalability.",
-        skills: [
-            "ReactJS",
-            "NodeJs",
-            "Material UI",
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "AWS",
-        ],
-    }
 ];
 
 export const education = [
