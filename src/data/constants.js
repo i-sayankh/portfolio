@@ -343,8 +343,8 @@ export const projects = [
             "https://github.com/i-sayankh/weather-app/assets/100083146/1ca7d178-ded7-45be-b4bc-a9fea9040fc7",
         tags: ["ReactJS", "SPA", "OpenWeatherMap API"],
         category: "web app",
-        github: " https://github.com/i-sayankh/weather-app",
-        webapp: "https://sayankhutia-weather-app.netlify.app/ ",
+        github: "https://github.com/i-sayankh/weather-app",
+        webapp: "https://sayankhutia-weather-app.netlify.app/",
     },
     {
         id: 10,
