@@ -118,6 +118,10 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
 `
 
 
@@ -125,21 +129,35 @@ const ContactButton = styled.input`
 export const Contact = () => {
   const [open, setOpen] = useState(false);
   const [severity, setSeverity] = useState('success');
+  const [sending, setSending] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
   const form = useRef();
+
+  const notify = (type, msg = '') => {
+    setSeverity(type);
+    setErrorMsg(msg);
+    setOpen(true);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_it62yon', 'template_v993glj', e.target, '60NKSdZqUJckg7HrD')
-    .then(() => {
-        setOpen(true);
-        setSeverity('success');
+    if (sending) return;
+    // native `required` / type="email" run before submit; this catches whitespace-only input
+    const data = new FormData(form.current);
+    if (['from_name', 'subject', 'message'].some((k) => !data.get(k).trim())) {
+      return notify('error', 'Please fill in all the fields.');
+    }
+    setSending(true);
+    emailjs.sendForm('service_it62yon', 'template_v993glj', form.current, '60NKSdZqUJckg7HrD')
+      .then(() => {
+        notify('success');
         form.current.reset();
       })
       .catch((error) => {
-        setOpen(true);
-        setSeverity('error');
-        console.log(error.text);
-      });
+        console.error('EmailJS error:', error);
+        notify('error', 'Error sending email. Please try again later.');
+      })
+      .finally(() => setSending(false));
   }
 
   return (
@@ -149,11 +167,11 @@ export const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactInput placeholder="Your Email" name="from_email" type="email" aria-label="Your email" required maxLength={100} />
+          <ContactInput placeholder="Your Name" name="from_name" aria-label="Your name" required maxLength={100} />
+          <ContactInput placeholder="Subject" name="subject" aria-label="Subject" required maxLength={150} />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" aria-label="Message" required maxLength={2000} />
+          <ContactButton type="submit" value={sending ? 'Sending...' : 'Send'} disabled={sending} />
         </ContactForm>
         <Snackbar
           open={open}
@@ -161,7 +179,7 @@ export const Contact = () => {
           onClose={() => setOpen(false)}
         >
           <Alert onClose={() => setOpen(false)} severity={severity}>
-            {severity === 'success' ? 'Email sent successfully!' : 'Error sending email. Please try again later.'}
+            {severity === 'success' ? 'Email sent successfully!' : errorMsg}
           </Alert>
         </Snackbar>
       </Wrapper>

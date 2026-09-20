@@ -1,16 +1,16 @@
 export const Bio = {
     name: "Sayan Khutia",
     roles: [
-        "Full Stack Developer",
         "Software Engineer",
-        "Programmer",
+        "Backend Developer",
+        "Full Stack Developer",
     ],
     description:
-        "I'm a passionate Full Stack Developer with a year of professional experience. I excel in developing robust web applications and APIs, leveraging the latest technologies to deliver efficient solutions. My goal is to continue growing as a developer, tackling new challenges, and contributing to innovative projects.",
+        "I'm a Software Engineer with 2+ years of experience building scalable, production-ready SaaS applications and backend systems using Python, FastAPI, Next.js and TypeScript. I specialize in backend development, API design and microservices-oriented architectures, with a strong focus on clean code, scalability and reliability. I'm particularly interested in SaaS platforms and GenAI-powered products.",
     github: "https://github.com/i-sayankh",
     resume:
-        "https://drive.google.com/file/d/1xKxA3kyf37OqXJHWoMejv34zyCN6dld4/view?usp=sharing",
-    linkedin: "https://www.linkedin.com/in/sayan-khutia-2b94a6170/",
+        "https://drive.google.com/file/d/1tDRwcNaxB0TjYWnjObIqtA_w-0KamxO9/view?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/sayan-khutia",
     twitter: "https://twitter.com/iamsk_3",
     insta: "https://www.instagram.com/i_sayankh",
     facebook: "https://www.facebook.com/sayan.khutia",
@@ -22,32 +22,39 @@ export const skills = [
         skills: [
             {
                 name: "React Js",
-                image:
-                    "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+                image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
             },
             {
-                name: "HTML",
-                image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+                name: "Next.js",
+                image: "https://cdn.simpleicons.org/nextdotjs/9a9a9a",
             },
             {
-                name: "CSS",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+                name: "TypeScript",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
             },
             {
                 name: "JavaScript",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            },
+            {
+                name: "HTML",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            },
+            {
+                name: "CSS",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+            },
+            {
+                name: "Tailwind CSS",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
             },
             {
                 name: "Bootstrap",
-                image:
-                    "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
             },
             {
                 name: "Material UI",
-                image:
-                    "data:image/png;base64,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",
+                image: "data:image/png;base64,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",
             },
         ],
     },
@@ -55,36 +62,45 @@ export const skills = [
         title: "Backend",
         skills: [
             {
-                name: "Node Js",
-                image: "https://nodejs.org/static/images/logo.svg",
-            },
-            {
-                name: "Graph Ql",
-                image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-            },
-            {
                 name: "Python",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
             },
             {
-                name: "MySQL",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+                name: "FastAPI",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
             },
             {
-                name: "Postgresql",
-                image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+                name: "Node Js",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            },
+            {
+                name: "ASP.NET Core",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+            },
+            {
+                name: "C#",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+            },
+            {
+                name: "PostgreSQL",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+            },
+            {
+                name: "Microsoft SQL Server",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
             },
             {
                 name: "MongoDB",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
             },
             {
-                name: "ASP.NET",
-                image: "https://seeklogo.com/images/1/net-logo-681E247422-seeklogo.com.png"
-            }
+                name: "MySQL",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+            },
+            {
+                name: "Graph Ql",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+            },
         ],
     },
     {
@@ -92,37 +108,43 @@ export const skills = [
         skills: [
             {
                 name: "Git",
-                image:
-                    "https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
             },
             {
                 name: "GitHub",
-                image:
-                    "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+                image: "https://cdn.simpleicons.org/github/9a9a9a",
+            },
+            {
+                name: "Playwright",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg",
+            },
+            {
+                name: "OpenAI API",
+                image: "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+            },
+            {
+                name: "Inngest",
+                image: "https://www.google.com/s2/favicons?domain=inngest.com&sz=128",
+            },
+            {
+                name: "Better Auth",
+                image: "https://cdn.simpleicons.org/betterauth/9a9a9a",
             },
             {
                 name: "Netlify",
-                image:
-                    "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
             },
             {
                 name: "VS Code",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
             },
             {
                 name: "Postman",
-                image:
-                    "https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png",
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
             },
             {
                 name: "Figma",
-                image:
-                    "https://seeklogo.com/images/F/figma-logo-E4E21D3AEA-seeklogo.com.png",
-            },
-            {
-                name: "Microsoft SQL Server",
-                image: "https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png"
+                image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
             },
         ],
     },
@@ -131,16 +153,17 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: "https://codingsphere.co/_next/static/media/logo.e2ac2d7f.svg",
+        img: "https://www.google.com/s2/favicons?domain=codingsphere.co&sz=128",
         role: "Software Development Engineer",
         company: "Coding Sphere",
-        date: "January 2025 - Present",
-        desc: "Developing scalable, high-performance applications using modern web technologies like Next.js, FastAPI, and Playwright. Responsible for building robust front-end and back-end solutions, optimizing system performance, and ensuring seamless and intuitive user experiences across platforms.",
+        date: "January 2025 - July 2026",
+        desc: "Built and maintained scalable backend services and RESTful APIs using Python and FastAPI for a production SaaS platform. Collaborated closely with frontend teams using Next.js and TypeScript to deliver end-to-end features, implemented a clean service-layer architecture with database integrations, and contributed to test automation that reduced production regressions.",
         skills: [
-            "NextJS",
-            "Type Script",
-            "Tailwind CSS",
+            "Python",
             "FastAPI",
+            "Next.js",
+            "TypeScript",
+            "Playwright",
         ],
     },
     {
@@ -149,13 +172,12 @@ export const experiences = [
         role: "Technical Trainee",
         company: "Gemini Solutions Pvt Ltd",
         date: "September 2022 - September 2023",
-        desc: "Contributed to Full Stack .NET development projects, gaining hands-on experience in ASP.NET, C#, and JavaScript.",
+        desc: "Developed and maintained enterprise applications using ASP.NET Core MVC, C# and RESTful Web APIs. Optimized database access with Entity Framework Core (~20% faster), streamlined development and deployment workflows (~15% less deployment time), and improved user satisfaction by ~30% through performance enhancements and rapid issue resolution.",
         skills: [
-            "ASP.NET",
+            "ASP.NET Core",
             "C#",
-            "HTML",
-            "CSS",
-            "JavaScript",
+            "Entity Framework Core",
+            "SQL",
         ],
     },
 ];
@@ -163,25 +185,37 @@ export const experiences = [
 export const education = [
     {
         id: 0,
-        img: "https://vit.ac.in/SGGES-21/assets/vit%20logo.png",
+        img: "https://upload.wikimedia.org/wikipedia/en/c/c5/Vellore_Institute_of_Technology_seal_2017.svg",
         school: "Vellore Institute of Technology, Vellore",
-        date: "September 2021 - August 2023",
+        date: "September 2021 - July 2023",
         grade: "8.43 CGPA",
         desc: "I completed my Master's degree in Computer Applications at Vellore Institute of Technology, Vellore, achieving a CGPA of 8.43. My coursework included in-depth study of Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and various other subjects.",
         degree: "Master of Computer Applications",
     },
     {
         id: 1,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfgs5SlYNSOK8xqgBvwUgL0ptrleBCIL0RdBSUAaZuA&s",
-        school: "Kazi Nazrul Unversity, Asansol",
+        img: "https://www.google.com/s2/favicons?domain=bbcollege.ac.in&sz=128",
+        school: "Banwarilal Bhalotia College, Asansol",
         date: "July 2017 - October 2020",
         grade: "9.17 CGPA",
-        desc: "I earned my Bachelor's degree in Computer Applications from Kazi Nazrul University, Asansol, with a CGPA of 9.17. During my undergraduate studies, I focused on subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and others.",
+        desc: "I earned my Bachelor's degree in Computer Applications from Banwarilal Bhalotia College, Asansol (affiliated to Kazi Nazrul University), with a CGPA of 9.17. During my undergraduate studies, I focused on subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and others.",
         degree: "Bachelor of Computer Applications",
     }
 ];
 
 export const projects = [
+    {
+        id: 11,
+        title: "Meet AI - AI Video Meeting Platform",
+        date: "February 2026 - September 2026",
+        description:
+            "Meet AI is an AI-powered video meeting platform built with Next.js 15. Users schedule meetings with configurable AI agents, join them over real-time video powered by Stream Video, and afterwards get an automatic transcript, summary, and a chat interface to ask questions about what was discussed. Authentication supports email/password and Google/GitHub OAuth via better-auth. After a call ends, Inngest background jobs fetch the transcript, attach speaker info, and generate an AI summary with OpenAI, while Stream Chat and an OpenAI-backed agent power the post-meeting Q&A. The app uses Drizzle ORM with Neon Postgres, a fully typed tRPC API, a Tailwind CSS and shadcn/ui interface, and Polar for subscription billing.",
+        image: "https://github.com/i-sayankh/meet-ai/blob/main/screenshots/Screenshot%202026-09-20%20152058.png?raw=true",
+        tags: ["Next.js", "TypeScript", "Drizzle ORM", "PostgreSQL", "tRPC", "better-auth", "Stream Video", "Stream Chat", "Inngest", "OpenAI", "Polar", "Tailwind CSS"],
+        category: "web app",
+        github: "https://github.com/i-sayankh/meet-ai",
+        webapp: "https://meet-ai-five-chi.vercel.app/",
+    },
     {
         id: 0,
         title: "Bugbook - Social Media Web App",

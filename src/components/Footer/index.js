@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Sayan Khutia. All rights reserved.
+          &copy; {new Date().getFullYear()} Sayan Khutia. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
