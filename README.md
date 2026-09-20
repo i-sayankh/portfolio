@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Sayan Khutia — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio of Sayan Khutia, a Software Engineer focused on backend and full stack development (Python, FastAPI, Next.js, TypeScript).
 
-## Available Scripts
+**Live:** [i-sayankh.github.io/portfolio](https://i-sayankh.github.io/portfolio)
 
-In the project directory, you can run:
+## Sections
 
-### `npm start`
+- **Hero** — intro with animated roles and a resume link
+- **Skills** — grouped into Frontend, Backend and Others
+- **Experience** and **Education** — timeline cards
+- **Projects** — filterable project cards with a details view (GitHub and live links)
+- **Contact** — email form powered by [EmailJS](https://www.emailjs.com/), with validation and duplicate-submit protection
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React 18](https://react.dev) (Create React App)
+- [styled-components](https://styled-components.com) for styling, with a dark theme
+- [Material UI](https://mui.com) for the alert/snackbar and icons
+- [@emailjs/browser](https://www.npmjs.com/package/@emailjs/browser) for the contact form
+- [react-router-dom](https://reactrouter.com), [react-scroll](https://www.npmjs.com/package/react-scroll), [typewriter-effect](https://www.npmjs.com/package/typewriter-effect)
+- [gh-pages](https://www.npmjs.com/package/gh-pages) for deployment to GitHub Pages
 
-### `npm test`
+## Project structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+src/
+  components/     # Hero, NavBar, Skills, Experience, Education, Projects, ProjectDetails, Contact, Footer, Cards
+  data/
+    constants.js  # all portfolio content (bio, skills, experience, education, projects)
+  utils/          # theme definitions
+  images/         # local images
+public/           # static assets and index.html
+```
 
-### `npm run build`
+## Getting started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open [http://localhost:3000](http://localhost:3000). The page reloads as you edit.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Updating the content
 
-### `npm run eject`
+Everything shown on the site comes from [`src/data/constants.js`](src/data/constants.js):
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Export | Controls |
+| --- | --- |
+| `Bio` | name, roles, description, resume and social links |
+| `skills` | skill groups and their icons |
+| `experiences` | work experience cards |
+| `education` | education cards |
+| `projects` | project cards (title, date, description, image, tags, `github`, `webapp`) |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To add a project, add an object to the top of `projects` with a unique `id`. Use a direct image URL (for example a raw GitHub screenshot) and leave `webapp` as `null` if there is no live demo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact form (EmailJS)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The form in [`src/components/Contact/index.js`](src/components/Contact/index.js) sends mail through EmailJS. Its service ID, template ID and public key are set in that file. The public key is safe to expose, but you should protect the account:
 
-## Learn More
+- In the EmailJS dashboard, restrict allowed domains to `localhost` and `i-sayankh.github.io`, and consider enabling reCAPTCHA.
+- The template must use the variables `from_email`, `from_name`, `subject` and `message`.
+- If sending fails with `412 Invalid grant`, the Gmail connection has expired. Reconnect it under **Email Services** in the EmailJS dashboard.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Script | Description |
+| --- | --- |
+| `npm start` | Start the dev server |
+| `npm run build` | Build for production into `build/` |
+| `npm run deploy` | Build and publish `build/` to the `gh-pages` branch |
+| `npm test` | Run the test runner |
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The site is hosted on GitHub Pages from the `gh-pages` branch. Pushing to `master` does not update it. After merging changes, run:
 
-### Analyzing the Bundle Size
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+It usually takes a minute or two to go live. Hard-refresh (Ctrl+Shift+R) to bypass the browser cache.
